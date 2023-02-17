@@ -18,6 +18,34 @@
   --btn-default-hover-color: #222;
   --btn-default-hover-border-color: #222;
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg-color: #282828;
+    --content-bg-color: #333;
+    --card-bg-color: #555;
+    --text-color: #ccc;
+    --blockquote-color: #bbb;
+    --link-color: #ccc;
+    --link-hover-color: #eee;
+    --brand-color: #ddd;
+    --brand-hover-color: #ddd;
+    --table-row-odd-bg-color: #282828;
+    --table-row-hover-bg-color: #363636;
+    --menu-item-bg-color: #555;
+    --btn-default-bg: #222;
+    --btn-default-color: #ccc;
+    --btn-default-border-color: #555;
+    --btn-default-hover-bg: #666;
+    --btn-default-hover-color: #ccc;
+    --btn-default-hover-border-color: #666;
+  }
+  img {
+    opacity: 0.75;
+  }
+  img:hover {
+    opacity: 0.9;
+  }
+}
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -1242,7 +1270,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #605b9c;
+  background: #49b57e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2331,6 +2359,12 @@ ul.breadcrumb li + li:last-child {
 .header-inner {
   padding-top: 100px;
 }
+.header-inner .site-brand-container .site-meta .brand {
+  background: rgba(255,255,255,0);
+}
+.header-inner .site-nav .menu {
+  background: rgba(255,255,255,0.5);
+}
 @media (max-width: 767px) {
   .header-inner {
     padding-top: 50px;
@@ -2355,7 +2389,7 @@ embed {
   text-align: center;
 }
 .custom-logo .site-title {
-  color: #222;
+  color: #bbb lack-deep;
   margin: 10px auto 0;
 }
 .custom-logo .site-title a {

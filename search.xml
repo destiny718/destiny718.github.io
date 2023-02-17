@@ -23,7 +23,23 @@
   <entry>
     <title>test blog</title>
     <url>/2023/02/17/test/</url>
-    <content><![CDATA[<p>A simple test blog…<br>这只是一个测试です</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="sorry,密码似乎不对捏。。" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f98b49d871da303ecca3c1edfc8e6e39c94bb34b2fa06ce18bbc5f55a178dbcc">4630436162ade97ba2718b7d0c4b3b6350eb7df4cef90d1b2877a68ceaed86fca60c75ba8a255c410f6697243412497e03ede2c0552d799084927973b35ea73e94a0df104357cc07f6ff0d585e39b0265bc847d75e0d636a14c013c67c2d77a8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>Test</tag>
+      </tags>
   </entry>
 </search>
